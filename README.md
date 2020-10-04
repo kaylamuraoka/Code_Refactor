@@ -2,7 +2,14 @@
 
 ## Description
 
-Horiseon's website follows a simple website design using a single HTML page and external css file (located in the assets folder). The original website design and code was provided, which I then modified to improve SEO (search engine optimization) by meeting website accessibility standards and HTML semantic rules. First, I changed the non-semantic elements (elements with no indication of its content to the browser), such as <div> and <span> to semantic elements (that more clearly define its content to the browser), such as <header>, <nav>, <content>, <aside>, <section>, <footer>. This also Second, I added proper alternative text for images by adding alt atributes to all image tags in order to follow web accessibility standards. Third, I changed the title element to have a concise, descriptive title. Fourth, I condensed the css style sheet code by converting redundant classes which had the same attributes to one class. Lastly, for formatting purposes, I Added clearfix class so that any child elements with floats wouldn't overflow outside of its parent element.
+Horiseon's website follows a simple website design using a single HTML page and external css file (located in the assets folder). The original website design and code was provided, which I then modified to make the site further optimized for search engines.
+I did this in a few steps:
+
+1. Following HTML semantic logic, I changed the non-semantic div elements (that don't give the browser any indication of its content) to the semantic elements: header, nav, content, aside, section, and footer. This new code gives the browser and indication of the sites content and follows a logical structure.
+1. Following web accessibility standards, I added proper alternative text for images by adding alt atributes to all image tags.
+1. I changed the title element to have a concise, descriptive title.
+1. I condensed the css style sheet code by converting redundant classes that had the same attributes to a single class that could be refrenced multiple times. For example, I changed the online-reputation-management, search-engine-optimization, social-media-marketing classes to the semantic element, section to reduce redundancy.
+1. I Added a clearfix class so that any child elements using float properties wouldn't overflow outside of the parameters of its parent element.
 
 ## Table of Contents (Optional)
 
@@ -15,18 +22,18 @@ If your README is very long, add a table of contents to make it easy for users t
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+To install this project locally clone this [**project repository**](https://github.com/kaylamuraoka/HTML_CSS_Git_Code_Refactor) to your local terminal and modify the code to your liking.
 
 ## Usage
 
 The refactored website can be seen at: https://kaylamuraoka.github.io/HTML_CSS_Git_Code_Refactor/
 
 The following image shows the web application's appearance and functionality:
-![Screenshop of Refactored Website](./screencapture_of_website)
+![Screenshop of Refactored Website](./screencapture_of_website.png)
 
 ## Credits
 
-The original website design and code was provided, which I then modified to improve SEO (search engine optimization) by meeting website accessibility standards and HTML semantic rules.
+The original website design and code was provided, which I then enhanced to make the site optimized for search engines by meeting website accessibility standards and HTML semantic rules.
 
 ## License
 
