@@ -11,9 +11,7 @@ I did this in a few steps:
 1. I condensed the css style sheet code by converting redundant classes that had the same attributes to a single class that could be refrenced multiple times. For example, I changed the online-reputation-management, search-engine-optimization, social-media-marketing classes to the semantic element, section to reduce redundancy.
 1. I Added a clearfix class so that any child elements using float properties wouldn't overflow outside of the parameters of its parent element.
 
-## Table of Contents (Optional)
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
